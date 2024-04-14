@@ -6,6 +6,7 @@ A simple website hosted on Vercel about me
 RemixJS, Vite, TailwindCSS
 
 ## Todo's
+- [ ] Increase Performance and Accessibility
 - [ ] Github CD/CI
 
 ## Live

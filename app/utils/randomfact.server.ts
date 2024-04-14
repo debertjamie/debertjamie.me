@@ -1,15 +1,15 @@
 const randomFacts = [
     {
-        title: "Debert",
-        fact: "Debert (/dəˈbɜːrt/) is a farming community located in the central-western part of Colchester County, Nova Scotia, Canada.",
+        title: "What is Debert?",
+        fact: "Debert (/dəˈbɜːrt/) is a farming community located in Colchester County, Canada (coincidence 😳?)",
     },
     {
         title: "This thing",
-        fact: "This website is initially made for two reasons: Codedex challenge and because I'm bored 😮",
+        fact: "This personal website is initially made for the Codedex #30NitesOfCode challenge 😮",
     },
     {
-        title: "Friends AND Enemies",
-        fact: "Likes math, hates math, enjoys math, despises math, but needs math in my life 🙃",
+        title: "Me and Math",
+        fact: "Math is undoubtedly challenging, and that's what makes it interesting 🧐",
     },
     {
         title: "A Life Perk",

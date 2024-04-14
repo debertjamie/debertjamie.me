@@ -36,16 +36,25 @@ export default function Index() {
         <h1 className="text-5xl font-bold leading-[3rem] tracking-tight lg:w-[55%] lg:text-5xl">
           DEBERT JAMIE C | 陈宥维
         </h1>
-        <p className="text-3xl">Student, code enthusiast</p>
+        <p className="text-3xl">
+          Student, code enthusiast, mathematics enjoyer
+        </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="flex flex-col gap-6">
           <div className="rounded-lg bg-blue-800 space-y-2 px-4 py-2 shadow-md shadow-blue-400">
             <p className="text-xl">
-              👋 Hi, I&#39;m Debert Jamie, a student from Indonesia. Currently
-              pursuing secondary education. Likes coding, reading, playing
-              games, you name it 😄
+              👋 Hi, I&#39;m Debert Jamie, a student from Indonesia with a
+              passion on coding and technology 😄. Also a mathematics fan who is
+              eager to learn trigonometry and calculus-related stuff.
             </p>
+          </div>
+          <div className="rounded-lg bg-emerald-800 space-y-2 px-4 py-2 shadow-md shadow-emerald-400">
+            <div className="text-base">
+              <p>🧐 Currently pursuing secondary education</p>
+              <p>😄 Will respond faster through Discord/Email</p>
+              <p>😬 Crafting my coding skills everyday</p>
+            </div>
           </div>
           <div className="rounded-lg bg-violet-900 space-y-2 px-4 py-2 shadow-md shadow-violet-400">
             <p className="text-xl">Currently learning:</p>
@@ -92,7 +101,7 @@ export default function Index() {
             </div>
           </div>
           <div className="bg-teal-950 space-y-2 rounded-lg px-4 py-2 shadow-md shadow-teal-400">
-            <p className="text-lg">My Socials</p>
+            <p className="text-lg">Drop me a line below 👇</p>
             <div className="grid grid-cols-3 gap-2">
               <Link
                 className="flex flex-col rounded-md bg-violet-700 px-2 py-1 items-center"
@@ -249,9 +258,16 @@ export default function Index() {
           </div>
           <div className="bg-lime-900 space-y-2 rounded-lg px-4 py-2 shadow-md shadow-lime-400">
             <p className="text-lg">About This Site</p>
-            <p className="text-base">© 2024 Debert Jamie Chanderson</p>
-            <p className="text-base">Made with RemixJS and TailwindCSS</p>
-            <p className="text-base">Powered by Vercel</p>
+            <div className="text-base">
+              <div className="flex flex-row gap-x-20">
+                <p>© 2024 Debert Jamie Chanderson</p>
+                <Link to="https://github.com/debertjamie/vercel-deploy">
+                  Source Code
+                </Link>
+              </div>
+              <p>Made with RemixJS and TailwindCSS</p>
+              <p>Powered by Vercel</p>
+            </div>
           </div>
         </div>
       </div>
