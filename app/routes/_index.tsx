@@ -22,7 +22,7 @@ export default function Index() {
   return (
     <div className="space-y-16 mx-auto max-w-4xl h-full bg-neutral-950 px-8 py-4 rounded-xl overflow-y-scroll">
       <div className="space-y-4">
-        <h1 className="text-2xl text-center md:text-5xl font-bold md:leading-[3rem] md:tracking-tight lg:text-5xl">
+        <h1 className="text-3xl text-center md:text-5xl font-bold md:leading-[3rem] md:tracking-tight lg:text-5xl">
           DEBERT JAMIE CHANDERSON
         </h1>
       </div>
@@ -92,7 +92,7 @@ export default function Index() {
                     height="2rem"
                     className="inline mr-2 -mt-1"
                   />
-                  My Internet Home
+                  My Website
                 </div>
               </Link>
               <Link
@@ -123,7 +123,7 @@ export default function Index() {
           <div className="bg-lime-900 space-y-2 rounded-lg px-4 py-2 shadow-md shadow-lime-400">
             <p className="text-lg">About This Site</p>
             <div className="text-base">
-              <div className="flex flex-row justify-between">
+              <div className="flex flex-wrap justify-between">
                 <p>&#169; 2024 Debert Jamie Chanderson</p>
                 <Link
                   to="https://github.com/debertjamie/vercel-deploy"

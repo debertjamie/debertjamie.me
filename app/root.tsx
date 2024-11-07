@@ -31,10 +31,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
       </head>
-      <body className="mx-auto bg-neutral-950 text-gray-200">
-        <div className="mx-8 lg:mx-20 my-[1.5rem] lg:my-[3rem]">
+      <body className="flex justify-center items-center bg-cover bg-center bg-[url('/background.jpg')] text-gray-200 h-screen overflow-hidden">
+        <main className="p-4 md:px-12 md:py-6 w-full h-full box-border">
           {children}
-        </div>
+        </main>
         <ScrollRestoration />
         <Scripts />
       </body>
