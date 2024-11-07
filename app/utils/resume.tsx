@@ -1,7 +1,7 @@
 import { SVGProps } from "react";
 import { JSX } from "react/jsx-runtime";
 
-export default function MailIcon(
+export default function ResumeIcon(
   props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>
 ) {
   return (
@@ -11,7 +11,7 @@ export default function MailIcon(
       fill="rgb(229 231 235)"
       {...props}
     >
-      <path d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM20 7.23792L12.0718 14.338L4 7.21594V19H20V7.23792ZM4.51146 5L12.0619 11.662L19.501 5H4.51146Z"></path>
+      <path d="M20 22H4C3.44772 22 3 21.5523 3 21V3C3 2.44772 3.44772 2 4 2H20C20.5523 2 21 2.44772 21 3V21C21 21.5523 20.5523 22 20 22ZM19 20V4H5V20H19ZM7 6H11V10H7V6ZM7 12H17V14H7V12ZM7 16H17V18H7V16ZM13 7H17V9H13V7Z" />
     </svg>
   );
 }
