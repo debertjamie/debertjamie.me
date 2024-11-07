@@ -1,13 +1,7 @@
-# VERCEL-DEPLOY
+# debertjamie.me
 
-A simple website hosted on Vercel about me
+A landing page website made with Remix and Tailwind.
 
-## Tech Used
-RemixJS, Vite, TailwindCSS
+## License
 
-## Todo's
-- [ ] Increase Performance and Accessibility
-- [ ] Github CD/CI
-
-## Live
-See the live version in [here](https://debertjamie.vercel.app/)
+AGPL-3.0 License
