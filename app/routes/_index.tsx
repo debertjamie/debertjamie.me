@@ -102,7 +102,7 @@ export default function Index() {
               </Link>
               <Link
                 className="block relative group font-semibold text-xl h-fit shadow-lg rounded-md overflow-hidden"
-                to="/Resume_Debert Jamie Chanderson.pdf"
+                to="/Resume_Debert Jamie C.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
