@@ -86,7 +86,7 @@ export default function Index() {
             <div className="grid grid-rows-2 gap-2">
               <Link
                 className="block relative group font-semibold text-xl h-fit shadow-lg rounded-md overflow-hidden"
-                to="https://debertjamie.dev/"
+                to="https://debertjamie.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
