@@ -31,7 +31,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
       </head>
-      <body className="flex justify-center items-center bg-cover bg-center bg-[url('/background.jpg')] text-gray-200 h-screen overflow-hidden">
+      <body className="flex justify-center pb-16 md:pb-0 items-center bg-cover bg-center bg-[url('/background.jpg')] text-gray-200 h-screen overflow-hidden">
         <main className="p-4 md:px-12 md:py-6 w-full h-full box-border">
           {children}
         </main>
