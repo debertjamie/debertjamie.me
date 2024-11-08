@@ -20,10 +20,15 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="space-y-16 mx-auto max-w-4xl h-full bg-neutral-950 px-8 py-4 rounded-xl overflow-y-scroll">
-      <div className="space-y-4">
-        <h1 className="text-3xl text-center md:text-5xl font-bold md:leading-[3rem] md:tracking-tight lg:text-5xl">
-          DEBERT JAMIE CHANDERSON
+    <div className="mx-auto max-w-4xl h-full bg-neutral-950 px-8 py-4 rounded-xl overflow-y-scroll">
+      <div className="mb-8 flex flex-col md:flex-row md:justify-center gap-4 items-center">
+        <img
+          src="/Debert Jamie Logo.png"
+          alt="Logo"
+          className="h-24 invert rounded-full border-2 border-gray-200"
+        />
+        <h1 className="text-3xl text-center md:text-5xl font-bold md:tracking-tight lg:text-5xl">
+          Debert Jamie Chanderson
         </h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
